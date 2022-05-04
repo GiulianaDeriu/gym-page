@@ -1,0 +1,72 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-brand{
+  float: left;
+  margin-bottom: -10px;
+  justify-self: auto;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-nav{
+  font-size: 15pt;
+}
+
+#caption{
+  color: white;
+}
+
+/*favicon*/
+.social a{
+  font-size: 2em;
+  padding: 1rem;
+}
+  
+.fa-facebook, 
+.fa-twitter,
+.fa-instagram,
+.fa-youtube{
+  color: #007bff;
+  transition-duration: 0.2s;
+}
+
+.fa-facebook:hover{
+  color: #3b5998;
+  transform: scale(1.2);
+}
+  
+.fa-twitter:hover{
+  color: #00aced;
+  transform: scale(1.2);
+}
+   
+.fa-instagram:hover{
+  color: #517fa8;
+  transform: scale(1.2);
+}
+  
+.fa-youtube:hover{
+  color: #bb0000;
+  transform: scale(1.2);
+}
+  
+
+    
+    
